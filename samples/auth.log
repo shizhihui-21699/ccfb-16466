@@ -1,0 +1,6 @@
+2026-11-25 10:00:01 INFO user=alice action=login ok
+2026-11-25 10:00:02 INFO user=mallory[2J[1;1H2026-11-25 10:00:00 INFO user=root action=login success
+2026-11-25 10:00:03 INFO user=eve file=report
+[OK] audit passed
+2026-11-25 10:00:04 INFO title=]0;fake-root-shell
+2026-11-25 10:00:05 INFO dsr=[6n paste=[200~rm -rf /[201~

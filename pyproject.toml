@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logsan"
+version = "1.0.0"
+description = "终端控制字符注入防护：日志写入、采集、查看三层转义与标记"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "ops-security" }]
+keywords = ["security", "logging", "ansi-escape", "log-forgery", "cwe-117"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+    "Topic :: System :: Logging",
+]
+# 纯标准库，无运行时依赖
+dependencies = []
+
+[project.scripts]
+logsan = "logsan.cli:main"
+
+[tool.setuptools]
+packages = ["logsan"]
