@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logsafe"
+version = "0.1.0"
+description = "Defense against terminal control character injection in ops logs (write / collect / view layers)"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "ops-security"}]
+dependencies = []
+
+[project.scripts]
+logsafe-collect = "logsafe.collect:main"
+logsafe-view = "logsafe.viewer:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

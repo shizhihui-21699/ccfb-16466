@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: logsafe
+Version: 0.1.0
+Summary: Defense against terminal control character injection in ops logs (write / collect / view layers)
+Author: ops-security
+License: MIT
+Requires-Python: >=3.9

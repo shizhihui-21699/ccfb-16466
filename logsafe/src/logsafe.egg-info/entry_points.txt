@@ -1,0 +1,3 @@
+[console_scripts]
+logsafe-collect = logsafe.collect:main
+logsafe-view = logsafe.viewer:main

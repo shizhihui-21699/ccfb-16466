@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/logsafe/__init__.py
+src/logsafe/collect.py
+src/logsafe/controls.py
+src/logsafe/logging_ext.py
+src/logsafe/sanitize.py
+src/logsafe/search.py
+src/logsafe/viewer.py
+src/logsafe.egg-info/PKG-INFO
+src/logsafe.egg-info/SOURCES.txt
+src/logsafe.egg-info/dependency_links.txt
+src/logsafe.egg-info/entry_points.txt
+src/logsafe.egg-info/top_level.txt
+tests/test_logsafe.py
